@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Politics</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Politics Meter</h1>
+
+
+
+      <p>Answer each question on a scale from 1 to 10 and we will determine whether you are Liberal or Conservative:</p>
+
+      <p>How much are you in favor of legislation banning the sale of automatic weapons?</p>
+      <form id="rate">
+        <input id="rating1" type="text">
+
+
+      <p>How much are you in support of banning vouchers for free higher education?</p>
+
+        <input id="rating2" type="text">
+
+
+      <p>How much are you in support of immigration reform?</p>
+
+        <input id="rating3" type="text">
+      </form>
+
+      <br><button type="submit" class="btn">Calculate my political affiliation</button>
+
+        <p>Thank you for your submission! We have determined that you are: <span id="rating"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
