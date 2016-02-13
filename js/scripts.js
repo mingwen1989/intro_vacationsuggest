@@ -5,7 +5,6 @@ $(function() {
     var rating3 = parseInt($("input#rating3").val());
 
     var totalRating = rating1 + rating2 + rating3;
-    console.log("Hello World");
 
     if (totalRating >= 20) {
       $("#rating").text("Conservative");
@@ -13,8 +12,11 @@ $(function() {
     else if (totalRating > 10 && totalRating < 20) {
       $("#rating").text("Moderate");
     }
-    else {
+    else if (totalRating <= 10) {
       $("#rating").text("Liberal");
+    }
+    else {
+      $(".form-group").addClass(".has-warning");
     }
 
       event.preventDefault();
