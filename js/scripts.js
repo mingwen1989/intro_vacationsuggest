@@ -10,10 +10,10 @@ $(function() {
     if (totalRating >= 20) {
       $("#rating").text("Conservative");
     }
-    else if ((totalRating > 10) && (totalRating < 20)) {
+    else if (totalRating > 10 && totalRating < 20) {
       $("#rating").text("Moderate");
     }
-    else (totalRating <= 10) {
+    else {
       $("#rating").text("Liberal");
     }
 
