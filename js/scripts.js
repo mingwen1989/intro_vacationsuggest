@@ -16,7 +16,7 @@ $(function() {
       $("#rating").text("Liberal");
     }
     else {
-      $(".form-group").addClass(".has-warning");
+      $(".form-group").addClass(".has-error");
     }
 
       event.preventDefault();
