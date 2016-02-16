@@ -12,12 +12,10 @@ $(function() {
     else if (totalRating > 10 && totalRating < 20) {
       $("#rating").text("Moderate");
     }
-    else if (totalRating <= 10) {
+    else {
       $("#rating").text("Liberal");
     }
-    else {
-      $(".form-group").addClass(".has-error");
-    }
+
 
       event.preventDefault();
   });
