@@ -10,31 +10,55 @@
   </head>
   <body>
     <div class="form-group">
-      <h1>Politics Meter</h1>
+      <div class="row">
+        <div class="col-xs-6">
+        <h1>Vacation Suggester</h1>
+
+        <br>
+          <p>Select gender:</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+              Male
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+              Female
+            </label>
+          </div>
+
+          <p>How many times a year do you vacation?</p>
+          <select class="form-control">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+          <br>
+          <p>On a scale from 1 to 10, how much do you enjoy ocean-side resort destinations?</p>
+          <form id="rate">
+            <input id="rating1" class="form-control" type="text">
 
 
+          <p>On a scale from 1 to 10, how much do you enjoy hiking?</p>
 
-      <p>Answer all questions and we will determine whether you are Liberal or Conservative:</p>
-
-      <p>On a scale from 1 to 10, how much are you in favor of legislation banning the sale of automatic weapons?</p>
-      <form id="rate">
-        <input id="rating1" class="form-control" type="text">
+            <input id="rating2" class="form-control"  type="text">
 
 
-      <p>On a scale from 1 to 10, how much are you in support of banning vouchers for free higher education?</p>
+          <p>On a scale from 1 to 10, how much do you enjoy gambling at casinos?</p>
 
-        <input id="rating2" class="form-control"  type="text">
+            <input id="rating3" class="form-control"  type="text">
 
+        <br><button type="submit" class="btn">Calculate my ideal vacation destination</button>
+        </form>
+      </div>
+        <div class="col-xs-6">
 
-      <p>On a scale from 1 to 10, how much are you in support of immigration reform?</p>
-
-        <input id="rating3" class="form-control"  type="text">
-
-
-      <br><button type="submit" class="btn">Calculate my political affiliation</button>
-      </form>
-
-        <br><p>Thank you for your submission! We have determined that you are: <span id="rating"></span></p>
+        <br><div id="result"><p>Thank you for your submission!<br><br> We have determined that you should go to: <span id="rating"></span></p></div>
+      </div>
       </div>
     </div>
   </body>
