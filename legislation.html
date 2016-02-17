@@ -15,20 +15,11 @@
         <h1>Vacation Suggester</h1>
 
         <br>
-          <p>Select gender:</p>
-          <div class="radio">
-            <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-              Male
-            </label>
+          <div class="form-group" style="margin: 0em">
+            <label for="name">Enter your name:</label>
+            <input type="name" class="form-control" id="name" placeholder="name">
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-              Female
-            </label>
-          </div>
-
+          <br>
           <p>How many times a year do you vacation?</p>
           <select class="form-control">
             <option>1</option>
@@ -57,7 +48,7 @@
       </div>
         <div class="col-xs-6">
 
-        <br><div id="result"><p>Thank you for your submission!<br><br> We have determined that you should go to: <span id="rating"></span></p></div>
+        <br><div id="result"><p><span id="namedisplay"></span>, thank you for your submission!<br><br> We have determined that you should go to: <span id="rating"></span></p></div>
       </div>
       </div>
     </div>
