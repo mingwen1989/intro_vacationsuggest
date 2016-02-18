@@ -42,7 +42,7 @@ $(function() {
     else if (rating1 >= 5 && rating2 >= 5 && rating3 < 5) {
       $("#namedisplay").text(name);
 
-      $("#rating").text("La Push, Washington! La Push is the north-most point of Washington’s Pacific Coast beaches. From La Push to Cape Flattery, the most northwest point of the continental United States, lies the Olympic National Park’s National Wildlife Refuge. The beach lies on the south side of the Quillayute River’s outlet into the Pacific Ocean at the north edge of the Quileute Indian Reservation. The beach, called First Beach, is a wide, crescent shaped, sandy beach with sea stacks between the beach and the western horizon. During migration, whales can be seen from the beach.[");
+      $("#rating").text("La Push, Washington! La Push is the north-most point of Washington’s Pacific Coast beaches. From La Push to Cape Flattery, the most northwest point of the continental United States, lies the Olympic National Park's National Wildlife Refuge. The beach lies on the south side of the Quillayute River's outlet into the Pacific Ocean at the north edge of the Quileute Indian Reservation. The beach, called First Beach, is a wide, crescent shaped, sandy beach with sea stacks between the beach and the western horizon. During migration, whales can be seen from the beach.");
     }
 
     else if (rating1 >= 5 && rating2 < 5 && rating3 >= 5) {
