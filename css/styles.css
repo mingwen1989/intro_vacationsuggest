@@ -1,4 +1,4 @@
-body {background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Kotohiki_Beach_in_Kyoto_prefecture.jpg); background-size: cover; background-repeat: repeat-x;}
+body {background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Kotohiki_Beach_in_Kyoto_prefecture.jpg); background-size: cover; background-repeat: repeat-x;font:1.3em;font-weight:300}
 
 .btn {
   display: block;
@@ -6,6 +6,6 @@ body {background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Kotohi
 
 .form-group {margin: 3em}
 
-#result {display: none; border:1px #333 solid; padding:10px;border-radius:5px;font-size:1.1em;margin-top:4.3em;background-color: rgba(255,255,255,0.5);padding-top:3em;padding-bottom: 3em}
+#result {display: none; border:1px #333 solid; padding:10px;border-radius:5px;font-size:1.1em;margin-top:4.3em;background-color: rgba(255,255,255,0.5);padding-top:3em;padding-bottom: 3em;font-weight:300}
 
-#leftcolumn {background-color: rgba(255,255,255,0.6);padding:10px}
+#leftcolumn {background-color: rgba(255,255,255,0.6);padding:10px;border-radius:5px}

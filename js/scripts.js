@@ -42,19 +42,19 @@ $(function() {
     else if (rating1 >= 5 && rating2 >= 5 && rating3 < 5) {
       $("#namedisplay").text(name);
 
-      $("#rating").text("La Push, Washington! La Push is the north-most point of Washington’s Pacific Coast beaches. From La Push to Cape Flattery, the most northwest point of the continental United States, lies the Olympic National Park's National Wildlife Refuge. The beach lies on the south side of the Quillayute River's outlet into the Pacific Ocean at the north edge of the Quileute Indian Reservation. The beach, called First Beach, is a wide, crescent shaped, sandy beach with sea stacks between the beach and the western horizon. During migration, whales can be seen from the beach.");
+      $("#rating").text("La Push, Washington! La Push is the north-most point of Washington's Pacific Coast beaches. From La Push to Cape Flattery, the most northwest point of the continental United States, lies the Olympic National Park's National Wildlife Refuge. The beach lies on the south side of the Quillayute River's outlet into the Pacific Ocean at the north edge of the Quileute Indian Reservation. The beach, called First Beach, is a wide, crescent shaped, sandy beach with sea stacks between the beach and the western horizon. During migration, whales can be seen from the beach.");
     }
 
     else if (rating1 >= 5 && rating2 < 5 && rating3 >= 5) {
       $("#namedisplay").text(name);
 
-      $("#rating").text("Dominican Republic! The white sand of Bavaro Beach, which was recognized by UNESCO, is consistently ranked as one of the best beaches in the world. In addition to the beach, this resort has a full-service Yhi Spa with a fully equipped gym, 3 pools, a family concierge, the Kids Zone (for children ages 1-12) and 2 a la carte restaurants. The Cocotal Golf Course & Country Club and Palma Real Shopping Village are only 2 minutes away. Movie nights, beach volleyball classes, salsa lessons, finger-painting, pizza-making classes and live music performances are just a few activities and workshops available to guests. Don’t miss out on occasional deals that allow kids to stay for free.");
+      $("#rating").text("Dominican Republic! The white sand of Bavaro Beach, which was recognized by UNESCO, is consistently ranked as one of the best beaches in the world. In addition to the beach, this resort has a full-service Yhi Spa with a fully equipped gym, 3 pools, a family concierge, the Kids Zone (for children ages 1-12) and 2 a la carte restaurants. The Cocotal Golf Course & Country Club and Palma Real Shopping Village are only 2 minutes away. Movie nights, beach volleyball classes, salsa lessons, finger-painting, pizza-making classes and live music performances are just a few activities and workshops available to guests. Don't miss out on occasional deals that allow kids to stay for free.");
     }
 
     else if (rating1 >= 5 && rating2 >= 5 && rating3 >= 5) {
       $("#namedisplay").text(name);
 
-      $("#rating").text("Travassa, Texas! When it comes to healthy getaways, there are plenty of destinations from which to choose, but few can hold a candle to Travaasa, outside Austin. Perched atop one of the hills in Texas Hill Country, the resort offers guests 5 pillars of experience: culture, fitness, wellness, culinary and adventure. Travaasa’s greatest asset may just be its staff, who go above and beyond to make sure each of their guests have experiences that will make memories to last a lifetime.");
+      $("#rating").text("Travassa, Texas! When it comes to healthy getaways, there are plenty of destinations from which to choose, but few can hold a candle to Travaasa, outside Austin. Perched atop one of the hills in Texas Hill Country, the resort offers guests 5 pillars of experience: culture, fitness, wellness, culinary and adventure. Travaasa's greatest asset may just be its staff, who go above and beyond to make sure each of their guests have experiences that will make memories to last a lifetime.");
     }
 
     else {
@@ -62,7 +62,7 @@ $(function() {
       $(".form-group").addClass("has-error");
     }
 
-    $("#result").show();
+    $("#result").fadeIn().show();
 
       event.preventDefault();
   });
