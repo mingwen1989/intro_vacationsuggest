@@ -1,4 +1,4 @@
-body {background: url(https://upload.wikimedia.org/wikipedia/commons/a/ae/Kotohiki_Beach_in_Kyoto_prefecture.jpg); background-size: cover; background-repeat: repeat-x;font:1.3em;font-weight:300}
+body {background: url(../img/beach.jpg); background-size: cover; background-repeat: repeat-x;font:1.3em;font-weight:300}
 
 .btn {
   display: block;

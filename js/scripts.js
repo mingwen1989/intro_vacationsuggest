@@ -3,6 +3,7 @@ $(function() {
     var rating1 = parseInt($("input#rating1").val());
     var rating2 = parseInt($("input#rating2").val());
     var rating3 = parseInt($("input#rating3").val());
+    var times = parseInt($("#timesyouvacation").val());
 
     var name = $("input#name").val();
 
@@ -57,9 +58,19 @@ $(function() {
       $("#rating").text("Travassa, Texas! When it comes to healthy getaways, there are plenty of destinations from which to choose, but few can hold a candle to Travaasa, outside Austin. Perched atop one of the hills in Texas Hill Country, the resort offers guests 5 pillars of experience: culture, fitness, wellness, culinary and adventure. Travaasa's greatest asset may just be its staff, who go above and beyond to make sure each of their guests have experiences that will make memories to last a lifetime.");
     }
 
+    else if (times === '5') {
+
+      $("#namedisplay").text(name);
+
+      $("#rating").text("Don't worry about our suggestions, you've been on enough vacations already!")
+    }
+
     else {
-      console.log("stuff");
       $(".form-group").addClass("has-error");
+
+      $("#namedisplay").text("Mystery user");
+
+      $("#rating").text("Please enter a valid submission!")
     }
 
     $("#result").fadeIn().show();
